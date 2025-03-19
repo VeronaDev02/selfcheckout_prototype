@@ -103,6 +103,7 @@ class Interface:
         :param width: Largura da janela.
         :param height: Altura da janela.
         """
+        print(f"x: {x} y: {y} width: {width} height: {height}")
         root.attributes('-topmost', True)
         root.attributes('-alpha', 0.9)
         root.overrideredirect(True)
